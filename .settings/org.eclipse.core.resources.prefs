@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/com/xjtu/dao/TopicDaoImpl.java=UTF-8
+encoding//src/com/xjtu/domain/Reply.java=UTF-8
+encoding//src/com/xjtu/domain/Topic.java=UTF-8
+encoding//src/com/xjtu/web/action/TopicAction.java=UTF-8
+encoding//src/com/xjtu/web/filter/EncodingFilter.java=UTF-8
+encoding//src/com/xjtu/web/filter/MyRequest.java=UTF-8

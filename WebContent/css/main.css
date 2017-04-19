@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "Arial";
+}
+
+.logoLabel {
+	font-family: "黑体";
+	font-size: 16px;
+	color: #E10601;
+}
+
+.menubar {
+	color: white;
+	background-color: #3879D9;
+	font-size: 12px;
+	padding-left: 30px;
+	width: 100%;
+	height: 20px;
+}
+
+.menubar a {
+	color: white;
+}
+
+.num {
+	font-size: 12px;
+	font-family: "宋体";
+}
+
+.keyword{
+	color: red;
+}
+
+label.error{
+	margin-left: 10px;
+	color: red;
+}
+
+/*========================*/
+.topicList td {
+	padding: 3px 0px 3px 10px;
+}
+
+.topicList .title td {
+	font-size: 12px;
+	padding: 1px 0px 1px 10px;
+}
+
+.topicList .info {
+	font-family: "宋体";
+}
+
+
+/* 让<pre>自动折行 */
+pre{
+white-space: pre; /* CSS2 */
+white-space: -moz-pre-wrap; /* Mozilla */
+white-space: -hp-pre-wrap; /* HP printers */
+white-space: -o-pre-wrap; /* Opera 7 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: pre-wrap; /* CSS 2.1 */
+white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+word-wrap: break-word; /* IE */
+} 
+/*========================*/
+.postList {
+	width: 700px;
+	margin-left: 10px;
+}
+
+.postList td {
+	padding: 5px;
+	/* border: 1px solid #eeeeee; */
+}
+
+.postList .title td {
+	color: blue;
+	padding: 5px
+}
+
+.postList .content td {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.postList .info {
+	font-size: 12px;
+	font-family: "宋体";
+}
+
+.postList .info td {
+	border-bottom: 1px solid #C0C1C1;
+}
+
+/*========================*/
+.publishArticleForm {
+	margin-left: 15px;
+}
+
+.publishArticleForm .label {
+	width: 50px;
+	font-size: 12px;
+}
+
+.publishArticleForm .title {
+	width: 400px;
+}
+
+.publishArticleForm .content {
+	width: 400px;
+	height: 150px;
+}
+
+/*========================*/
+.simpleSearchForm .queryString {
+	width: 350px;
+}
+
+/*========================*/
+.searchArticleResultList {
+	
+}

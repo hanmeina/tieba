@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="tieba" namespace="/" extends="struts-default" >
+		<action name="TopicAction_*" method="{1}" class="com.xjtu.web.action.TopicAction" >
+			<result name="toList" type="redirectAction">
+             <param name="actionName">TopicAction_list</param>
+             <param name="namespace">/</param>
+         </result>
+		<result name="list" >/index.jsp</result>
+		<result name="findTopicSuccess">/showTopic.jsp</result>
+		<result name="addReplySuccess" type="redirectAction">
+		    <param name="actionName">TopicAction_showTopic?topic.tid=${topic.tid}</param>
+            <param name="namespace">/</param>
+		</result>	
+		<result name="input">/error.jsp</result>
+		</action>
+	</package>
+</struts>
